@@ -1,0 +1,9 @@
+output "cloud_run_web_url" { value = google_cloud_run_v2_service.web.uri }
+output "cloud_run_worker" { value = google_cloud_run_v2_service.worker.name }
+output "cloud_run_beat" { value = google_cloud_run_v2_service.beat.name }
+output "sql_instance" { value = google_sql_database_instance.pg.connection_name }
+output "redis_host" { value = google_redis_instance.redis.host }
+output "redis_port" { value = google_redis_instance.redis.port }
+output "artifact_repo"       { value = google_artifact_registry_repository.repo.repository_id }
+output "media_bucket" { value = google_storage_bucket.media.name }
+output "backups_bucket" { value = google_storage_bucket.backups.name }

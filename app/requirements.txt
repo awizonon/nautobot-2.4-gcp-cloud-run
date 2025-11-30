@@ -1,0 +1,7 @@
+# Gunicorn (optional alt WSGI server, Cloud Run/K8s safe)
+gunicorn==23.0.0
+
+# Cloud storage (enable only if you’ll use GCS)
+django-storages[google]==1.14.4
+google-cloud-storage>=2.16.0
+google-auth>=2.22.0
