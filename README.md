@@ -102,7 +102,7 @@ terraform apply
 
 ---
 
-## 📘 Warning
+## 📘 Note
 
 For production environment:
 - Expose the nautobot web with loadbalancer
