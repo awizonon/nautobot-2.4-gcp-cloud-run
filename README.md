@@ -106,6 +106,7 @@ terraform apply
 
 For production environment:
 - Expose the nautobot web with loadbalancer
-- Use Cloud Amor
+- Use Cloud Armor
 - GCS will be access only via authentication
 - Remove the public access on the nautobot web cloud run service
+- Use pipeline CI/CD for the build and deployment
